@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  line-height: 1.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'Bevan', sans-serif;
+  color: #fff;
+  font-size: 3rem;
+  background-color:  #79756f;
+  padding: .6em .5em;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  border-top: solid #595652;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0em .5em 3em;
+  list-style-type: none;
+  background-color: #79756f;
+  text-align: center;
+  width: 100%;
+  border-bottom: solid #595652;
+}
+
+a:hover {
+  background-color: #f33;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline;
+  width: 7em;
+  padding: 1em;
+  background-color: #713837;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: .3em;
+}

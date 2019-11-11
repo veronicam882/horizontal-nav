@@ -3,6 +3,7 @@ html {
   background-color: #dbd6cf;
   line-height: 1.5rem;
   display: inline-block;
+  width: 100%;
 }
 
 *, *::before, *::after {
@@ -12,16 +13,16 @@ html {
 body {
   background-color: #79756f;
   margin: 0;
-  padding: .6em .5em .75em;
+  padding: .5em;
   border-bottom: solid #595652;
   border-top: solid #595652;
   width: 100%;
 }
 
 h1 {
-  font-family: "Bevan", sans-serif;
+  font-family: '"Bevan"', cursive, sans-serif;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: .6em .5em;
   margin: 0;
   width: 100%;
@@ -43,11 +44,12 @@ nav li {
 
 nav a {
   display: inline;
-  padding: 1em;
+  padding: .75em;
   background-color: #713837;
   color: #fff;
   text-decoration: none;
   font-family: sans-serif;
+  font-size: .95em;
   text-align: center;
   border-radius: .3em;
 }

@@ -20,7 +20,8 @@ body {
 }
 
 h1 {
-  font-family: '"Bevan"', cursive, sans-serif;
+  font-family: "Bevan", sans-serif;
+  font-weight: normal;
   color: #fff;
   font-size: 2rem;
   padding: .6em .5em;
